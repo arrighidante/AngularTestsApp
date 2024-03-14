@@ -1,0 +1,5 @@
+@if(todos.length === 0){
+<p id="no-todos-message">No todos found</p>
+} @else { @for(todo of todos; track todo){
+<app-todo-list-item [todo]="todo"></app-todo-list-item>
+} }

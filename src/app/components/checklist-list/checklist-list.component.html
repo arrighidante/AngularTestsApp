@@ -1,0 +1,15 @@
+<ul>
+  @for (checklist of checklists; track checklist) {
+  <li>
+    <p data-testid="checklist-item">checklist</p>
+    <button (click)="delete.emit(checklist.id)" data-testid="delete-checklist">
+      Delete
+    </button>
+  </li>
+  }
+</ul>
+@if(!checklists.length){
+<p data-testid="no-checklists-message">
+  Click the add btn to add your first checklist!
+</p>
+}
