@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { TodoComponent } from './todo.component';
+import { TodoComponent } from '../../app/todo-app/todo.component';
 
 describe('TodoComponent', () => {
   let component: TodoComponent;
@@ -8,10 +7,9 @@ describe('TodoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TodoComponent]
-    })
-    .compileComponents();
-    
+      imports: [TodoComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(TodoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

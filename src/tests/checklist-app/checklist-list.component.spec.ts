@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { subscribeSpyTo } from '@hirez_io/observer-spy';
-import { ChecklistListComponent } from './checklist-list.component';
-
+import { ChecklistListComponent } from '../../app/checklist-app/checklist-list/checklist-list.component';
 describe('ChecklistListComponent', () => {
   let component: ChecklistListComponent;
   let fixture: ComponentFixture<ChecklistListComponent>;
