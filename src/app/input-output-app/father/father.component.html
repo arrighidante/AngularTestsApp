@@ -1,0 +1,14 @@
+<h1>Father</h1>
+<hr />
+
+<button class="btn btn-primary" (click)="onSetClient('Dante')">
+  Load Client
+</button>
+<br /><br />
+<code class="mt-2">{{ client | json }}</code>
+
+<hr />
+<app-father-son
+  [client]="client"
+  (onDeleteClient)="client = undefined"
+></app-father-son>

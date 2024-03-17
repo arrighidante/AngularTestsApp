@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CharizardAppComponent should match the snapshot 1`] = `"<h1>Pokemon</h1><hr><div><h2>Loading...</h2></div><!--container--><!--container-->"`;
+exports[`CharizardAppComponent should match the snapshot 1`] = `"<h1>Pokemon</h1><hr><div><h2>Loading...</h2></div><!--container--><!--container--><form novalidate="" ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid"><input type="text" formcontrolname="name" ng-reflect-name="name" class="ng-untouched ng-pristine ng-valid"><input type="text" formcontrolname="email" ng-reflect-name="email" class="ng-untouched ng-pristine ng-invalid"><input type="text" formcontrolname="password" ng-reflect-name="password" class="ng-untouched ng-pristine ng-invalid"><button type="submit">Test</button></form>"`;
