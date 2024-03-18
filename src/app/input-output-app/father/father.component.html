@@ -11,4 +11,5 @@
 <app-father-son
   [client]="client"
   (onDeleteClient)="client = undefined"
+  (onClientUpdated)="client = $event"
 ></app-father-son>
