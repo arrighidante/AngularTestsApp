@@ -4,6 +4,9 @@ This is a test project that contains several mini Angular applications. The main
 
 ![Angular Logo](https://angular.io/assets/images/logos/angular/angular.png)
 
+This project was created following [this guide by Fernando Herrera](https://www.youtube.com/playlist?list=PLCKuOXG0bPi205CKoCh2bgcv9oXS6sO3a).
+
+Feel free to use it if you want to practice with Jest. Remember to remove the test folder and start with the testing! Enjoy it!
 ## Versions :label:
 
 - Angular: 17.0.0
