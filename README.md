@@ -1,27 +1,39 @@
-# MyTestApp
+# My Test App with apps :rocket:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+This is a test project that contains several mini Angular applications. The main purpose of this project is to perform tests using Jest.
 
-## Development server
+![Angular Logo](https://angular.io/assets/images/logos/angular/angular.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Versions :label:
 
-## Code scaffolding
+- Angular: 17.0.0
+- Jest: 27.0.0
+- jest-environment-jsdom: 29.7.0
+- jest-preset-angular: 14.0.3
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Testing :white_check_mark:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run the tests, use the following command:
 
-## Running unit tests
+```bash
+npm run test
+```
+You can follow these steps to select a specific test that match with the entered search term:
+1. Run the test
+2. Press 'w' key to open the options panel
+3. Press 'p' to filter by a filename
+4. Press 'enter' to confirm
+5. Only the tests that match will be excecuted
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Run :running:
 
-## Running end-to-end tests
+To run the project, use the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng serve -o
+```
 
-## Further help
+## Contributing :handshake:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions and suggestions are welcome. Please open an issue or a pull request for suggestions or improvements.
